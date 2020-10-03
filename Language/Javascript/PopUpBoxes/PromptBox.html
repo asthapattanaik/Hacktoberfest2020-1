@@ -1,0 +1,16 @@
+<!--This program demonstrates to create Prompt Box using Javascript-->
+<html>
+  <head>
+    <title>Prompt Box</title>
+  </head>
+  <body>
+    <h2>CLICK ON THE BUTTON TO CREATE A PROMPT</h2>
+    <input type="button" value="CLICK" onclick="promptBox()" />
+    <script>
+      function promptBox() {
+        var name = prompt("ENTER YOUR NAME"); // prompt always return input value when clicked OK and null when cancel u=is clicked
+        if (name != null) alert("WELCOME TO THE PAGE " + name);
+      }
+    </script>
+  </body>
+</html>
